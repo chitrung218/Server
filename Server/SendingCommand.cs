@@ -96,7 +96,11 @@ namespace Server
         #endregion
 
         #region Button Event
-
+        /// <summary>
+        /// Send Command to client
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSendingCommand_Click(object sender, EventArgs e)
         {
             if (lbxConnectedClients.SelectedItems.Count == 0)
