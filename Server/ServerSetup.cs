@@ -54,7 +54,11 @@ namespace Server
 
        
         #region Button Event
-
+        /// <summary>
+        /// Start Server program
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnStartup_Click(object sender, EventArgs e)
         {
             if (HasStartup == false)
